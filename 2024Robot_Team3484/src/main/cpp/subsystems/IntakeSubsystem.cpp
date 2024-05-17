@@ -183,6 +183,11 @@ void IntakeSubsystem::AmpMovement(double extend_power) {
 
 void a_really_bad_function_to_maybe_make_clang_work() {
     // Written in the gitHub editor haha
-    jfakdhfjkahsdkjfhjkadfha
-    Don't know if that's gonna do anything or not but we'll see
+    if (something == something_else)
+    {
+
+    }
+    else {
+        _amp_motor.Set(extend_power);
+    }
 }
