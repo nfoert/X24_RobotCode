@@ -6,6 +6,7 @@ on:
   push:
     branches: [main, master, develop]
     paths: ['**.cpp', '**.h']
+  workflow_dispatch:
 
 jobs:
   cpp-linter:
