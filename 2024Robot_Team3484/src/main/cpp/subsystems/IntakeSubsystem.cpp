@@ -180,3 +180,9 @@ void IntakeSubsystem::OpenLoopTransferMotor(double tranfer_power) {
 void IntakeSubsystem::AmpMovement(double extend_power) {
     _amp_motor.Set(extend_power);
 }
+
+void a_really_bad_function_to_maybe_make_clang_work() {
+    // Written in the gitHub editor haha
+    jfakdhfjkahsdkjfhjkadfha
+    Don't know if that's gonna do anything or not but we'll see
+}
