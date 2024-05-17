@@ -6,7 +6,8 @@ on:
   push:
     branches: [main, master, develop]
     paths: ['**.c', '**.cpp', '**.h', '**.hpp', '**.cxx', '**.hxx', '**.cc', '**.hh', '**CMakeLists.txt', 'meson.build', '**.cmake']
-
+  workflow_dispatch:
+  
 jobs:
   cpp-linter:
     runs-on: ubuntu-latest
