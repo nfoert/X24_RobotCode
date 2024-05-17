@@ -174,7 +174,7 @@ void IntakeSubsystem::OpenLoopTestMotors(double pivot_power, double drive_power)
 
 void IntakeSubsystem::OpenLoopTransferMotor(double tranfer_power) {
     _transfer_motor.Set(motorcontrol::VictorSPXControlMode::PercentOutput, tranfer_power);
-}
+}workflow_dispatch
 
 //Amp
 void IntakeSubsystem::AmpMovement(double extend_power) {
@@ -183,11 +183,5 @@ void IntakeSubsystem::AmpMovement(double extend_power) {
 
 void a_really_bad_function_to_maybe_make_clang_work() {
     // Written in the gitHub editor haha
-    if (something == something_else)
-    {
-
-    }
-    else {
-        _amp_motor.Set(extend_power);
-    }
+    return false;
 }
